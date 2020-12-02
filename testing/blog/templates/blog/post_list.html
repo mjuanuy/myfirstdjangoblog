@@ -1,0 +1,259 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'assets\fontawesome-free-5.15.1-web\css\all.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/build/css/intlTelInput.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/slick/slick.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/slick/slick-theme.css' %}"/>
+
+    
+</head>
+<body>
+    <div class="site-container">
+            <div class="banner-wrapper">
+                <div class="banner"></div>
+
+                <div class="header">
+                    <div class="logo col-50">
+                        <img class="imgone" src="{% static 'assets/bracketslogo.png'%}" alt="">
+                        <span>DEMO</span>
+                    </div>
+                    <div class="navigation col-50">
+                        <ul class="menu-nav">
+                            <li><a href="#">Home<a/></li>
+                            <li><a href="#">Services ▼<a/></li>
+                            <li><a href="#">Portfolio<a/></li>
+                            <li><a href="#">About Us<a/></li>
+                            <li><a href="#">Blog<a/></li>
+                            <li><a href="#">Contact us<a></li>
+                        </ul>
+                        <ul class="social-icons">
+                            <li><a href="#" class="fab fa-facebook-f"></a></li>
+                            <li><a href="#" class="fab fa-twitter"></a></li>
+                            <li><a href="#" class="fab fa-instagram"></a></li>
+                        </ul>
+
+                    </div>
+                </div>                
+                <div class="title-div ">
+                        <span id="title-text">Software made with love.</span><br>
+                        <br>
+                        <div class="subtitle">
+                            <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium </span>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="title-button">
+                            <a href="#"><button id="learn">LEARN MORE</button></a>
+                        <a href="#"><button id="get"><i class="fas fa-paper-plane"></i> GET FREE QUOTE</button></a> 
+                        </div>
+                        
+
+                </div>
+            </div>
+
+            <div class="great-wrapper">
+                <div class="laptop-div">
+                    <img src="{% static 'assets/laptop.png' %}" alt="">
+                </div>
+                <div class="phone-div">
+                    <img src="{% static 'assets/phone.png' %}" alt="">
+
+                </div>
+                <div class="great-software">
+                    <div class="software-title">
+                        <span id="title-text">Great Software</span>
+                        <br>
+                        <span id="great-sub">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium </span>
+
+                    </div>
+                    
+                </div>
+
+                <div class="efficient">
+                    <div class="first-blue">
+                        <div class="efficient-title">
+                            <span id="eff-text">Efficient, Secure and Fully Supported</span>
+                                <br>
+                                <span id="eff-sub">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-white"></div>
+                    <div class="beniffits">
+                        <div class="green col-33">
+                            <i class="fas fa-cogs"></i>
+                            <div class="ben-holder">
+                             <span class="ben-text">Efficient</span>
+                                 <br>
+                              <span class="ben-sub">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</span>
+                            </div>
+                        </div>
+                        <div class="yellow col-33">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="ben-holder">
+                                <span class="ben-text">Secure</span>
+                                    <br>
+                                 <span class="ben-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+                               </div>
+                        </div>
+                        <div class="sky col-33">
+                            <i class="fas fa-headset"></i>
+                            <div class="ben-holder">
+                                <span class="ben-text">Great Support</span>
+                                    <br>
+                                 <span class="ben-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                               </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-background"></div>
+                <div class="col-35">
+                    <div class="contact-title">
+                        <span id="con-text">Why Wait?</span>
+                        <br>
+                        <span id="con-sub">Get a Free Qoute or Call <i class="fas fa-phone-alt"></i> <a href="#">123 56 7890</a></span>
+                    </div>  
+                </div>
+                <div class="col-65">
+                    <div class="input-group">
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text"placeholder="Company" >
+                            <input type="tel"placeholder="Phone" id="telephone" >
+                            <input type="text" placeholder="Website">
+                            <input type="text" placeholder="Service">
+                            <button id="contact-butt"><i class="fas fa-paper-plane"></i> GET FREE QUOTE</button>
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="testimonials-wrapper">
+                <div class="right-dire" id="testnext"><i class="fas fa-chevron-right"></i></div>
+                <div class="left-dire"id="testprev"> <i class="fas fa-chevron-left"></i></div>
+
+                <div class="test-title">
+                    <span>TESTIMONIALS</span>
+                </div>   
+                <div class="test-container">
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="blog-wrapper">
+                <div class="right-dire" id="blognext"><i class="fas fa-chevron-right"></i></div>
+                <div class="left-dire" id="blogprev"> <i class="fas fa-chevron-left"></i></div>
+
+                <div class="test-title">
+                    <span>OUR BLOG</span>
+                </div>   
+                <div class="blog-container">
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                        hello
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                    <div class="test-content">
+                        Hello there
+                    </div>
+                </div>
+
+
+            </div>
+
+
+                
+            
+    </div>
+ <!-- Use as a jQuery plugin -->
+
+ <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="{% static 'assets/slick/slick.min.js' %}"></script>
+<script src="{% static 'assets/build/js/intlTelInput-jquery.min.js' %}"></script>  
+
+  
+
+<script>
+$(document).ready(function(){
+  $('.test-container').slick({
+        infinite: true,
+        arrows: false,
+        dots:true,
+  });
+});
+
+
+$("#telephone").intlTelInput({
+  // options here
+  allowDropdown:true,
+
+});
+
+$('#testprev').click(function(){
+  $('.test-container').slick('slickPrev');
+})
+
+$('#testnext').click(function(){
+  $('.test-container').slick('slickNext');
+})
+
+
+
+$('.blog-container').slick({
+      infinite: true,
+      slidesToShow: 3, 
+      slidesToScroll: 3 //NUMBER OF SLIDES YOU WANT TO JUMP ON SINGLE SCROLL/CLICK.
+  });
+$('#blogprev').click(function(){
+  $('.blog-container').slick('slickPrev');
+})
+
+$('#blognext').click(function(){
+  $('.blog-container').slick('slickNext');
+})
+
+
+
+
+
+</script>
+</body>
+</html>
