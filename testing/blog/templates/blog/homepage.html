@@ -177,16 +177,10 @@
                     <span>OUR BLOG</span>
                 </div>   
                 <div class="blog-container">
-                        {% for post in posts %}
 
-
-                            <div>
-                                <p>published:{{post.published_date}}</p>
-                                <h2><a href="">{{post.title}}</a></h2>
-                                <p>{{post.text|linebreaksbr}}</p>
-                            </div>
-
-                    {% endfor %}
+                    {% block content %%}
+                    {% endblock %}
+                    
                 </div>
 
 
